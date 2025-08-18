@@ -42,7 +42,7 @@ cd mcp-instana
 # Set up the environment
 uv sync
 
-# Alternative: Install from PyPI for testing
+# Alternative: Install from PyPI
 pip install mcp-instana
 ```
 #### 3. Create a New MCP Tools Module
@@ -94,13 +94,13 @@ Build the mcp-instana with:
 # For development (editable install)
 uv pip install -e .
 
-# Or install from PyPI for testing
+# Or install from PyPI
 pip install mcp-instana
 ```
 
 Now open/restart the mcp host like Claude Desktop/GitHub Copilot and then run the query to test your new tool.
 
-To run the MCP server locally for testing:
+To run the MCP server locally:
 
 **Using Development Installation:**
 ```bash
